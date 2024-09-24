@@ -12,11 +12,17 @@ public class PlayerView : MonoBehaviour
 
     public void PlaySadWalkAnimation()
     {
+        _animator.SetBool("Walk", true);
         _animator.Play("SadWalk");
     }
 
     public void PlayIdleAnimation()
     {
         _animator.Play("Idle");
+    }
+
+    public void PlaySwitchAnimation()
+    {
+        _animator.Play("Switch");
     }
 }

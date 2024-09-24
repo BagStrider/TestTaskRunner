@@ -65,13 +65,20 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\PickUpCollector.cs" />
     <Compile Include="Assets\Scripts\Level Manager\LevelManager.cs" />
+    <Compile Include="Assets\ProgressBarView.cs" />
     <Compile Include="Assets\MoneyNumbersView.cs" />
+    <Compile Include="Assets\ProgressBorder.cs" />
+    <Compile Include="Assets\ProgressService.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerView.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\PlayerModelSwitcher.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\PickUp.cs" />
+    <Compile Include="Assets\ProgressBordersChecker.cs" />
+    <Compile Include="Assets\LevelStart.cs" />
+    <Compile Include="Assets\TapToPlayTrigger.cs" />
     <Compile Include="Assets\Scripts\Level Manager\LevelsList.cs" />
   </ItemGroup>
   <ItemGroup>

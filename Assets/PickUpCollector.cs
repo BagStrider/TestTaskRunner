@@ -3,6 +3,7 @@
 public class PickUpCollector : MonoBehaviour
 {
     [SerializeField] private MoneyNumbersView _numbersView;
+    [SerializeField] private ProgressService _progressService;
 
     private float _lastCash = 0f;
 
@@ -37,8 +38,9 @@ public class PickUpCollector : MonoBehaviour
 
             _lastCash += pickup.Price;
 
-            _numbersView.SetCashText(_lastCash.ToString());
+            _progressService.AddValue(pickup.Price);
 
+            _numbersView.SetCashText(_lastCash.ToString());
 
             _numbersView.PlayAppearAnimation();
         }
